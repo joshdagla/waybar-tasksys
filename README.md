@@ -17,11 +17,11 @@ A minimal, keyboard-driven task manager integrated with **Waybar** and **Rofi**.
 
 ## Installation
 
-**Directly through cloning the Repository
+**Directly through cloning the Repository**
 
 ```bash
 git clone https://github.com/joshd/tasksys.git
-cd tasksys
+cd /waybar/tasksys/tasksys
 chmod +x tasksys.py 
 sudo cp tasksys.py /$HOME/.config/waybar
 ```
@@ -29,7 +29,7 @@ sudo cp tasksys.py /$HOME/.config/waybar
 
 ## Waybar Integratiom
 
-Add tbis to your Waybar config:
+Add this to your Waybar config:
 ```json
 "custom/tasksys": {
     "exec": "/$HOME/.config/waybar/scripts/tasksys.py",
