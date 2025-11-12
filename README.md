@@ -20,7 +20,7 @@ A minimal, keyboard-driven task manager integrated with **Waybar** and **Rofi**.
 **Directly through cloning the Repository**
 
 ```bash
-git clone https://github.com/joshd/tasksys.git
+git clone https://github.com/joshdagla/waybar-tasksys.git
 cd /waybar/tasksys/tasksys
 chmod +x tasksys.py 
 sudo cp tasksys.py /$HOME/.config/waybar
