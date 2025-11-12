@@ -1,2 +1,24 @@
-# waybar-tasksys
-Tasksys is a minimal, keyboard driven to-do list/task manager integrated with waybar and rofi launcher.
+# waybar-asksys
+
+A minimal, keyboard-driven task manager integrated with **Waybar** and **Rofi**.
+
+---
+
+## Features
+- Native Rofi-based interface
+- Seamless Waybar module support
+- Full keyboard control
+  - **Enter** → Toggle task done/undone  
+  - **Alt+Enter** → Add task  
+  - **Shift+Enter** → Delete task  
+  - **Esc** → Exit
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/<your-username>/tasksys.git
+cd tasksys
+chmod +x tasksys.py
+sudo cp tasksys.py /usr/local/bin/tasksys
