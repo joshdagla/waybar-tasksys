@@ -15,15 +15,21 @@ A minimal, keyboard-driven task manager integrated with **Waybar** and **Rofi**.
 
 ---
 
+## Requirements
+- Python 3.8+
+- Rofi installed and acceessible in $PATH
+
+---
+
 ## Installation
 
 **Directly through cloning the Repository**
 
 ```bash
 git clone https://github.com/joshdagla/waybar-tasksys.git
-cd /waybar/tasksys/tasksys
+cd waybar-tasksys
 chmod +x tasksys.py 
-sudo cp tasksys.py /$HOME/.config/waybar
+sudo cp tasksys.py /usr/local/bin/waybar-tasksys
 ```
 ---
 
