@@ -8,7 +8,7 @@ arch=('any')
 url="https://github.com/joshdagla/waybar-tasksys"
 license=('MIT')
 depends=('python' 'rofi' 'waybar')
-source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+source=("$url/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('SKIP')
 
 package() {
