@@ -12,8 +12,9 @@ source=("$url/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('SKIP')
 
 package() {
-  cd "$srcdir/${pkgname}-${pkgver}"
-  install -Dm755 "/tasksys/tasksys.py" "$pkgdir/usr/bin/waybar-tasksys"
+  cd "$srcdir/${pkgname}-${pkgver}/tasksys"
+  install -Dm755 "tasksys.py" "$pkgdir/usr/bin/waybar-tasksys"
+  cd ..
   install -Dm644 "LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
   install -Dm644 "README.md" "$pkgdir/usr/share/doc/$pkgname/README.md"
 }
