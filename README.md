@@ -38,9 +38,9 @@ sudo cp tasksys.py /usr/local/bin/waybar-tasksys
 Add this to your Waybar config:
 ```json
 "custom/tasksys": {
-    "exec": "/$HOME/.config/waybar/scripts/tasksys.py",
+    "exec": "waybar-tasksys",
     "return-type": "json",
-    "on-click": "/$HOME/.config/waybar/scripts/tasksys.py --popup",
+    "on-click": "waybar-tasksys --popup",
     "format": "  {} ",
     "tooltip": true,
     "max-length": 20,
