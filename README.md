@@ -41,6 +41,7 @@ Add this to your Waybar config:
     "exec": "waybar-tasksys",
     "return-type": "json",
     "on-click": "waybar-tasksys --popup",
+    "interval": 5,
     "format": "  {} ",
     "tooltip": true,
     "max-length": 20,
