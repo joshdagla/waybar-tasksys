@@ -2,7 +2,7 @@
 
 A minimal, keyboard-driven task manager integrated with **Waybar** and **Rofi**.
 
-https://github.com/joshdagla/waybar-tasksys/blob/main/tasksys_showcase.mp4
+[![Demo](tasksys_thumbnail.png)](tasksys_showcase.mp4)
 
 ---
 
